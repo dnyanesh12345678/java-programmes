@@ -25,7 +25,7 @@
 	}
 
 public static void main(String[] args){
-Example example = new Example();
+method example = new method();
 example.setNumber(123);
 example.setName("GFG Write");
 example.printDetails();
