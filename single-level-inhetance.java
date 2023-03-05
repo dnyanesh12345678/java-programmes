@@ -65,7 +65,7 @@ class MountainBike extends Bicycle {
 }
 
 // driver class
-public class Test {
+ class Test {
 	public static void main(String args[])
 	{
 
@@ -87,7 +87,7 @@ class two extends one {
 	public void print_for() { System.out.println("for"); }
 }
 // Driver class
-public class Main {
+ class Main {
 	public static void main(String[] args)
 	{
 		two g = new two();
