@@ -39,7 +39,7 @@ class D extends A {
 }
 
 // Driver Class
-public class Test {
+ class Test {
 	public static void main(String[] args)
 	{
 		B obj_B = new B();
