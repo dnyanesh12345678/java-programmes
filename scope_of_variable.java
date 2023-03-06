@@ -19,6 +19,7 @@
 	{
 		Test t = new Test();
 		t.method1(5);
+		System.out.println(Test.x);
 	}
 }
 
