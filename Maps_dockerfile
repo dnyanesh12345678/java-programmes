@@ -1,0 +1,7 @@
+FROM 127.0.1.1:88/tomcat_qa:latest
+COPY Maps.java /root/java/
+WORKDIR /root/java
+RUN javac Maps.java
+RUN java Maps
+RUN cp *.class /opt/apache-tomcat-8.5.89/webapps/
+
