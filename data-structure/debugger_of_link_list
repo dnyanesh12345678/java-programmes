@@ -1,0 +1,144 @@
+node-0bject=100(data=18)
+head=100
+node-object=101(data=45)
+n-object=100
+100.next=101
+node-object=102(data=12)
+n-object=101
+101.next=102
+
+
+node-object=100
+
+node-objece=101
+node-objece=102
+
+________same________________
+
+
+node-object=100(data=18)
+head-object=100
+
+
+
+node-object=101(data=45)
+n-object=100
+100.next=101
+
+node-object=102(data=12)
+n-object=101
+101.next=102
+
+
+node-object=103(data=100)
+n-object=102
+102.next=103
+
+
+
+
+show()method debugger=
+
+
+node-object=100
+
+100.data=18
+
+node-objcet=101
+101.data=45
+node-object=102
+102.data=12
+node-objcet=103
+103.data=100value
+
+
+
+
+
+
+
+
+
+
+
+
+_______________________same___________________________
+
+
+
+node=100(data=18)     >>>>> node=101(data=45)       >>>>   node=102(data=12)   >>>>>>  node=103(data=100)
+head=100                    n-onject=100                   n-object=101                n-objcet=100
+100.next=101                 101.next=102                  102.next=103
+
+
+____________________same till all include aa_____________
+
+node-0bject=100(data=18)
+100.next=101
+==========        node-object=101(data=45)
+                          101.next=102
+                          n-object=100=============
+                                                     
+                                                     
+                                                     node-object=102(data=12)
+                                                     102.next=null
+                                                     n-object=101
+                                                     
+                                                     
+                                                     
+                                                     
+                                                     
+                                                     ======
+                                                       insertAtStart method
+                                                       
+                                                       
+                                                      node=103(data=25)
+                                                      103.next=null
+                                                      103.next=101
+                                                      
+                                                      
+                                                      
+                                                      
+                                                 
+                          ========================================
+                          insertAt method
+                          
+                          node-object=104(data=55)
+                          104.next=null
+                          
+                          
+                         
+                          node-object=105(data=55)
+                          105.next=null
+                          105.next=103
+                          
+                          head=105
+                          =============================================
+                          delete AT
+                          
+                       n-object=105
+                       n-object=103
+                       
+                       
+                       =======================
+                       
+                       show()
+                       node=105
+                       
+                       55
+                       node=103==========  55,25,45,12
+                       25
+                       node=101
+                       45
+                       node=102
+                       
+                       12
+                       
+                       
+                       
+                       
+                         
+                         
+                         
+                          
+                          
